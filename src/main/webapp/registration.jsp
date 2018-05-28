@@ -18,6 +18,7 @@
 
     <link href="${contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
     <link href="${contextPath}/resources/css/common.css" rel="stylesheet">
+    <link href="${contextPath}/resources/css/wrapper.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -28,6 +29,11 @@
 
 <body>
 
+<div id="header">
+	<img id="imgLogo" src="${contextPath}/resources/images/blinkmarkMini.png" alt="Logo">
+</div>
+
+<div id="content">
 <div class="container">
 
     <form:form method="POST" modelAttribute="userForm" class="form-signin">
@@ -58,6 +64,7 @@
         <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
     </form:form>
 
+</div>
 </div>
 <!-- /container -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

@@ -1,19 +1,9 @@
-# Registration and Login Example with Spring Security, Spring Boot, Spring Data JPA, HSQL, JSP
+# Spring BlinkMark
 
-## Guide
-https://hellokoding.com/registration-and-login-example-with-spring-security-spring-boot-spring-data-jpa-hsql-jsp/
+##What is this?
 
-## Prerequisites
-- JDK 1.7 or later
-- Maven 3 or later
+This is my school project, which will end up being a social media application
 
-## Stack
-- Spring Security
-- Spring Boot
-- Spring Data JPA
-- Maven
-- JSP
-- HSQL
+to run the server, go to repo and type
 
-## Run
-```mvn clean spring-boot:run```
+mvn clean spring-boot:run
