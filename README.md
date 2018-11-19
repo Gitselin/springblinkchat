@@ -1,6 +1,6 @@
 # Spring BlinkMark
 
-##What is this?
+## What is this?
 
 This is my school project, which will end up being a social media application
 
